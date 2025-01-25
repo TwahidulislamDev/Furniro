@@ -44,6 +44,55 @@ h1,h2,h3,h4,h5,h6,p{
 .icons .iconSvg{
    padding-left: 40px;
 }
-
-
 /* Header part end  */
+
+/* Banner Section start */
+#bannerPart{
+    padding-top: 140px;
+    padding-bottom: 120px;
+    background: url(../resourse/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bannerContant{
+    height: 440px;
+    width: 640px;
+    background: #FFF3E3;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.bannerContant h4{
+    padding-top: 60px;
+    padding-bottom:15px ;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bannerContant h1{
+    padding-bottom:25px ;
+    padding-left: 25px;
+    padding-right: 200px;
+    font-size: 50px;
+    line-height: 65px;
+    color: #B88E2F;
+}
+.bannerContant p{
+    padding-left: 25px; 
+    padding-right: 90px;
+    padding-bottom: 50px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.bannerBtn{
+    padding-left: 25px;
+}
+.bannerBtn button{
+    padding: 15px 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background: #B88E2F;
+    border: none;
+}
+/* Banner Section End */
