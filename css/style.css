@@ -255,7 +255,16 @@ a {
   padding: 8px 30px;
   color: #b88e2f;
   background: transparent;
-  border: 2px solid #b88e2f ;
+  border: 2px solid #b88e2f;
+  border-radius: 5px;
+  transition: .5s;
+}
+.productMoreBtn a:hover{
+  padding: 8px 30px;
+  color: white;
+  background:#e97171;
+  border: 2px solid #b88e2f;
+  border-radius: 5px;
 }
 /* Product part End */
 
@@ -367,11 +376,26 @@ a {
 .footerFormText{
   border-bottom: 2px solid black;
 }
-.footerFormText button{
+/* .footerFormText button{
   padding: 10px 10px;
   border: none;
   font-size: 13px;
   font-weight: 500;
+} */
+.footerFormText a{
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: .5s;
+  color: black;
+}
+.footerFormText a:hover{
+  padding: 10px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #e97171;
 }
 /* Footer Section End */
 .copyRight{
