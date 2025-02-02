@@ -148,13 +148,11 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
 }
 .productItem {
   width: 23.5%;
-  position:relative ;
+  position: relative;
   margin-bottom: 20px;
-  
 }
 .productItem img {
   width: 100%;
@@ -209,7 +207,7 @@ a {
   font-weight: 400;
   padding-left: 10px;
 }
-.productOverlay{
+.productOverlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -217,155 +215,155 @@ a {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
-.productItem:hover .productOverlay{
+.productItem:hover .productOverlay {
   opacity: 1;
 }
-.overlayContent .OverlayBtn a{
+.overlayContent .OverlayBtn a {
   padding: 10px 20px;
   background: white;
   color: #b88e2f;
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.social{
+.social {
   position: absolute;
-  top:60%;
+  top: 60%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
 }
-.social a{
+.social a {
   color: white;
   font-size: 15px;
   margin: 10px;
 }
-.social a i{
+.social a i {
   margin-right: 5px;
 }
 .productMoreBtn {
   text-align: center;
   margin-top: 10px;
 }
-.productMoreBtn a{
+.productMoreBtn a {
   padding: 8px 30px;
   color: #b88e2f;
   background: transparent;
   border: 2px solid #b88e2f;
   border-radius: 5px;
-  transition: .5s;
+  transition: 0.5s;
 }
-.productMoreBtn a:hover{
+.productMoreBtn a:hover {
   padding: 8px 30px;
   color: white;
-  background:#e97171;
+  background: #e97171;
   border: 2px solid #b88e2f;
   border-radius: 5px;
 }
 /* Product part End */
 
 /* Footer Section Start */
-#footerPart{
+#footerPart {
   margin-bottom: 50px;
 }
-.footerFlex{
-  border-top:1px solid gray ;
-  border-bottom:1px solid gray;
+.footerFlex {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
-.brandName{
+.brandName {
   padding-top: 50px;
   width: 30%;
 }
-.brandName h1{
+.brandName h1 {
   font-size: 25px;
   font-weight: 700;
   padding-bottom: 60px;
 }
-.brandName p{
+.brandName p {
   font-size: 16px;
   font-weight: 400;
-  color: #9F9F9F;
+  color: #9f9f9f;
   line-height: 20px;
 }
-.brandLink{
+.brandLink {
   padding-top: 50px;
   width: 20%;
 }
-.brandLink h1{
+.brandLink h1 {
   font-size: 18px;
   font-weight: 500;
-  padding-bottom: 60px; 
+  padding-bottom: 60px;
 }
-.brandLink h2{
+.brandLink h2 {
   font-size: 14px;
   font-weight: 400;
-  padding-bottom: 40px; 
-  color: #9F9F9F;
-}
-.brandLink h3{
-  font-size: 14px;
-  font-weight: 400;  
   padding-bottom: 40px;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
-.brandLink h4{
+.brandLink h3 {
   font-size: 14px;
-  font-weight: 400; 
-  padding-bottom: 40px; 
-  color: #9F9F9F;
+  font-weight: 400;
+  padding-bottom: 40px;
+  color: #9f9f9f;
 }
-.brandLink p{
+.brandLink h4 {
   font-size: 14px;
-  font-weight: 400; 
-  color: #9F9F9F; 
+  font-weight: 400;
+  padding-bottom: 40px;
+  color: #9f9f9f;
+}
+.brandLink p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9f9f9f;
   padding-bottom: 40px;
 }
-.help h1{
+.help h1 {
   font-size: 18px;
   font-weight: 500;
-  padding-bottom: 60px; 
+  padding-bottom: 60px;
 }
-.help{
+.help {
   padding-top: 50px;
   width: 20%;
 }
-.help h2{  
+.help h2 {
   font-size: 14px;
   font-weight: 400;
-  padding-bottom: 40px; 
-  color: #9F9F9F;
-}
-.help h3{  
-  font-size: 14px;
-  font-weight: 400;  
   padding-bottom: 40px;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
-.help h4{  
+.help h3 {
   font-size: 14px;
-  font-weight: 400; 
-  padding-bottom: 40px; 
-  color: #9F9F9F;
+  font-weight: 400;
+  padding-bottom: 40px;
+  color: #9f9f9f;
 }
-.brandNewsletter{
+.help h4 {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px;
+  color: #9f9f9f;
+}
+.brandNewsletter {
   padding-top: 50px;
   width: 30%;
 }
-.brandNewsletter h1{
+.brandNewsletter h1 {
   font-size: 18px;
   font-weight: 500;
-  padding-bottom: 60px;  
+  padding-bottom: 60px;
 }
-.brandNewLetterFlex{
+.brandNewLetterFlex {
   display: flex;
 }
-.footerForm input{
+.footerForm input {
   border: none;
   background: transparent;
   padding: 10px 20px 10px 0;
@@ -373,7 +371,7 @@ a {
   display: block;
   margin-right: 10px;
 }
-.footerFormText{
+.footerFormText {
   border-bottom: 2px solid black;
 }
 /* .footerFormText button{
@@ -382,15 +380,15 @@ a {
   font-size: 13px;
   font-weight: 500;
 } */
-.footerFormText a{
+.footerFormText a {
   padding: 10px 10px;
   border: none;
   font-size: 13px;
   font-weight: 500;
-  transition: .5s;
+  transition: 0.5s;
   color: black;
 }
-.footerFormText a:hover{
+.footerFormText a:hover {
   padding: 10px 10px;
   font-size: 13px;
   font-weight: 500;
@@ -398,11 +396,11 @@ a {
   background: #e97171;
 }
 /* Footer Section End */
-.copyRight{
+.copyRight {
   text-align: center;
   margin-top: 20px;
 }
-.copyRight h3{
+.copyRight h3 {
   font-size: 14px;
   font-weight: 400;
 }
